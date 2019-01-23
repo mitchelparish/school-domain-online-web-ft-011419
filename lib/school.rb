@@ -11,11 +11,11 @@ def add_student(name, grade)
     @roster[grade] << name
   else
     @roster[grade] = [name]
-# self.roster[grade] ||= []
-# if grade already exists, do nothing.
-# if grade does not exist, create it.
-# follow-up either way by adding name to grade.
-  end
+    # self.roster[grade] ||= []
+    # if grade already exists, do nothing.
+    # if grade does not exist, create it.
+    # follow-up either way by adding name to grade.
+end
 end
 
 def grade(grade)
@@ -27,6 +27,5 @@ def sort
     students.sort!
   end
 end
-
 
 end
